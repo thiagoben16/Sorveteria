@@ -1,0 +1,90 @@
+.container_principal{
+    background-color: black;
+    color: #ffffff ;
+}
+
+.rodape_contato{
+    display: flex;
+    flex: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape_logo{
+    width: 10%;
+    height: 10%;
+}
+
+.rodape_endereco p{
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.rodape_endereco h1{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.rodape_desenvolvedor{
+    padding: 2% 0;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .rodape_contato{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2% 0;
+    }
+    .rodape_endereco p{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+    .rodape_endereco h1{
+        padding-top: 8px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .rodape_logo{
+        width: 25%;
+        height: 15%;
+    }
+
+    .rodape_desenvolvedor{
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+    .rodape_contato{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 2% 0;
+    }
+    .rodape_endereco p{
+        font-size: 12px;
+        font-weight: 200;
+    }
+    
+    .rodape_endereco h1{
+        padding-top: 8px;
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .rodape_logo{
+        width: 25%;
+        height: 15%;
+    }
+
+    .rodape_desenvolvedor{        
+        font-size: 8px;
+    }
+}

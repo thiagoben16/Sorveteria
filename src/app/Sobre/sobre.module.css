@@ -1,0 +1,92 @@
+.container_sobre{
+    width: 100%;
+    height: 90vh;
+    background-image: url("../../../public/banner-sobre.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    
+}
+
+.container_sobre h1{
+    text-align: center;
+    align-items: center;
+    padding-top: 35vh;
+    font-size: 100px;
+    color: #fff;
+    text-shadow: 6px 6px 3px  black; ;
+}
+
+.container_textos{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.container_textos h3{
+    font-style: italic;
+}
+
+.container_textos p{
+    text-align: justify;
+    margin: 0   2%;
+}
+
+.sobre_imagens{
+    display: flex;
+    flex-direction: row;
+}
+
+.imagem1{
+    background-image: url("../../../public/sobre-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.imagem2{
+    background-image: url("../../../public/sorveteria.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+
+@media screen and (min-width:768px) and (max-width: 1024px) {
+    .container_sobre{
+        width: 100%;
+       
+    }
+    .container_sobre h1{
+        font-size: 60px;
+    }
+    .sobre_imagens{
+        flex-direction: column;
+    }
+
+    .container_textos{
+        font-size: 14px;
+    }
+
+    
+    
+    
+}
+
+
+@media screen and (min-width:375px) and (max-width: 767px) {
+
+    .container_sobre h1{
+        font-size: 30px;
+    }
+    .sobre_imagens{
+        flex-direction: column;
+    }
+    .container_textos{
+        font-size: 12px;
+    }
+}

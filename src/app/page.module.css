@@ -1,0 +1,165 @@
+
+
+.container_banner{
+  text-align: center;
+  background-color: #f9db79;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  
+}
+
+.banner_imagem{  
+  
+  text-align: center;
+  align-items: center;
+  
+}
+
+.banner_texto{
+  position: absolute;
+  display: block;        
+  width: 100%;
+  top: 250px;
+  left: 0%;
+  z-index: 5;
+ }
+
+.banner_texto h1{   
+  font-size: 100px;
+  color: #fff;
+  text-shadow: 5px 5px 3px #474747;
+}
+.container_descricao{
+  display: flex;
+  flex-direction: column;
+}
+.container_sabores_principal{
+  display: flex;
+  flex-direction: row;
+}
+.container_eventos_principal{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.sabores_imagem, .eventos_imagem{
+  width: 50%;
+  height: 100vh;  
+}
+
+.sabores_texto, .eventos_texto{
+  display: flex;
+  flex-direction: column;
+  justify-content:flex-start;
+  text-align: center;
+  padding: 10% 5%;
+  
+}
+
+.sabores_texto h1, .eventos_texto h1{
+  padding-top: 5%;
+}
+
+.sabores_texto h3, .sabores_texto p, .eventos_texto h3, .eventos_texto p{
+  padding-top: 5%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+  .container_banner{
+    height: 80vh;
+  }
+  .banner_imagem{
+    width: 300px;
+    height: 400px;
+    text-align: center; 
+    align-items: center;
+    
+    
+  }
+  .banner_texto{
+    position: absolute;
+    display: block;        
+    width: 100%;
+    top: 300px;
+    left: 0%;
+  }
+  .banner_texto h1{
+    font-size: 50px;
+    
+  }
+  .sabores_imagem, .eventos_imagem{
+    width: 50%;
+    height: 40vh;  
+  }
+
+  .sabores_texto, .eventos_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: justify;
+    padding: 5% 5%;
+    font-size: 10px;
+    height: 40vh;
+    width: 50%;
+  }
+
+  .sabores_texto h1, .eventos_texto h1{
+    padding-top: 0%;
+  }
+
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px){
+  .container_banner{
+    height: 60vh;
+  }
+  .banner_imagem{
+    width: 200px;
+    height: 300px;
+    text-align: center; 
+    align-items: center;  
+  }
+  .banner_texto{
+    position: absolute;
+    display: block;        
+    width: 100%;
+    top: 285px;
+    left: 0%;
+    
+  }
+  .banner_texto h1{
+    display: inline-block;
+    width: 200px  ;
+    font-size: 20px;
+    margin: 0;
+    
+  }
+
+  .sabores_imagem, .eventos_imagem{
+    width: 50%;
+    height: 35vh;  
+  }
+
+
+
+  .sabores_texto, .eventos_texto{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    text-align: justify;
+    padding: 5% 5%;
+    font-size: 8px;
+    height: 35vh;
+    width: 50%;
+  }
+
+  .sabores_texto h1, .eventos_texto h1{
+    padding-top: 0%;
+  }
+  .sabores_texto h1, .eventos_texto h1{
+    padding-top: 3%;
+    font-size: 12px;
+  }
+
+}
