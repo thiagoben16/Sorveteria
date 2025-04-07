@@ -23,7 +23,7 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
-    margin-right: 50px;
+    margin-right: 2%;
     
 }
 
@@ -52,13 +52,12 @@
     width: 100%;
     gap: 0px;
     height: 10%;
-    padding-bottom: 15px;
+    padding-bottom: 5%;
     
     }
-  .logo_img{ 
-    
-    width: 50%;
-    height: 50%;
+  .logo_img{    
+    width: 30%;
+    height: 20%;
     
   }
   .container_navegacao{
@@ -93,12 +92,12 @@
       width: 100%;
       gap: 0px;
       height: 10%; 
-      padding-bottom: 15px;      
+      padding-bottom: 5%;      
     }
 
     .logo_img{
-      width: 60%;
-      height: 50%;
+      width: 30%;
+      height: 20%;
       margin: 0;
     }
     .container_navegacao{
